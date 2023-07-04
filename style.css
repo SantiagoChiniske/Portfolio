@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+header{
+    background-color:#503A3A ;
+    width: auto;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a{
+    padding-left: 5px;
+    color: #FEF4F4;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+}
