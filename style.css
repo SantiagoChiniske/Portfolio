@@ -46,3 +46,46 @@ header a{
     color: #FFF;
     font-size: 45px;
 }
+/*Fim incio*/
+
+/*Inicio Sobre*/
+#informacoes{
+    height: 36em;
+}
+#informacoes h1{
+    background-color: aqua;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+#perfil{
+    width: 25em;
+    height: 25em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    background-color: bisque;
+}
+
+#perfil img{
+    border-radius: 100%;
+}
+
+#sobre{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 0, 0);
+    flex-direction: column;
+}
+
+#sobre div{
+    color: white;
+    justify-content: flex-end;
+}
+
+#sobre img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
