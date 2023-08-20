@@ -32,7 +32,7 @@ header a{
 }
 
 #personagem{
-    border-radius: 50%;
+ 
     padding-top: 6em;
     padding-left: 2em;
     width: 315px;
@@ -49,43 +49,88 @@ header a{
 /*Fim incio*/
 
 /*Inicio Sobre*/
-#informacoes{
-    height: 36em;
-}
+
 #informacoes h1{
-    background-color: aqua;
     font-size: 55px;
     text-align: center;
     padding-top: 0.5em;
+    
 }
 
 #perfil{
+    display: inline-block;
     width: 25em;
     height: 25em;
     padding-left: 2em;
-    padding-bottom: 2em;
-    background-color: bisque;
+    padding-right: 2em;
+
 }
 
 #perfil img{
     border-radius: 100%;
 }
 
-#sobre{
-    display: flex;
-    width: 250px;
-    height: 250px;
-    background-color: rgb(255, 0, 0);
-    flex-direction: column;
+#sobre{ 
+    
+    display: inline-block;
+    width: 700px;
+    height: 300px;
+
 }
 
 #sobre div{
-    color: white;
-    justify-content: flex-end;
+    color: #000;
+}
+
+#sobre div p{
+    font-size: 28px;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #sobre img{
     width: 45px;
     height: 45px;
-    border-radius: 100%;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+/*Fim sobre*/
+
+/*Inicio Tecnologias*/
+
+#tecnologia{
+    background: #2E2828;
+    height: 500px;
+    text-align: center;
+}
+
+#tecnologia h1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 50px ;
+   padding-top: 50px;
+}
+
+#imagem-tecologias{   
+    display: flex;
+    width: 1028px;
+    height: 304px;
+    align-items: center;
+    justify-content: center;
+    gap: 64px 107px;
+    flex-wrap: wrap;
+    padding-left: 10em;
+}
+
+
+#imagem-tecologias img{
+    width: 120px;
+    height: 120px;
 }
