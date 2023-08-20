@@ -17,16 +17,17 @@ header a{
     font-family: Ubuntu;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     line-height: normal;
     text-decoration: none;
+    padding-right: 20px;
 }
 
 /*Início*/
 
 #inicio{
     background-color: #F65151;
-    height: 36em;
+    height: 30em;
     display: flex;
 
 }
@@ -49,6 +50,9 @@ header a{
 /*Fim incio*/
 
 /*Inicio Sobre*/
+#informacoes{
+    padding-bottom: 50px;
+}
 
 #informacoes h1{
     font-size: 55px;
@@ -137,9 +141,65 @@ header a{
 
 /*Fim tecnologias*/
 
+/*Inicio Porfolio*/
+#trabalhos h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: #000;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.repositorios{
+    width:252px;
+    height: 252px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #374957;
+}
+
+#img-portfolio{
+    width: 222px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+.titulo-icone img,p{
+    display: inline-block;
+}
+
+.titulo-icone{
+    padding-top: 5px;
+}
+
+#textos-portfolio{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+#list-repositorios{
+    display: flex;
+width: 1159px;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 70px 210px;
+flex-wrap: wrap;
+}
+/*Fim do porfolio*/
+
+
 /*Inicio Footer*/
 
 footer{
+    margin-top: 50px;
     background: #503A3A;
 
 }
