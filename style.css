@@ -1,12 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+    width: 1020px;
 }
 
 /*Header*/
 header{
+
     background: #0D0D0D;
     height: 3em;
+    width: 100%;
     display: flex;
     text-align: center;
     align-items: center;
@@ -18,9 +21,7 @@ header a{
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    line-height: normal;
     text-decoration: none;
-    padding-right: 20px;
 }
 
 /*Início*/
@@ -33,24 +34,31 @@ header a{
 }
 
 #personagem{
- 
     padding-top: 6em;
     padding-left: 2em;
-    width: 315px;
-    height: 315px;
+    width: 215px;
+    height: 215px;
 }
 
 #texto-personagem{
     padding-top: 3em;
     padding-left: 5em;
     align-items: center;
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 45px;
+}
+#texto-personagem p{
+    color: #FFFFFF;
 }
 /*Fim incio*/
 
 /*Inicio Sobre*/
+#container{
+    display: flex;
+    padding: 0 20px 0 20px;
+}
 #informacoes{
+    width: 1020px;
     padding-bottom: 50px;
 }
 
@@ -62,44 +70,49 @@ header a{
 }
 
 #perfil{
-    display: inline-block;
-    width: 25em;
+
+    width: 196px;
     height: 25em;
     padding-left: 2em;
     padding-right: 2em;
-
+    display: flex;
+    align-items: center;
 }
 
 #perfil img{
     border-radius: 100%;
+    width: 215px;
+    height: 215px;
+    
+    align-items: center;
 }
 
-#sobre{ 
-    
-    display: inline-block;
+#sobre p{ 
+    display: flex;
     width: 700px;
     height: 300px;
-
-}
-
-#sobre div{
-    color: #000;
-}
-
-#sobre div p{
-    font-size: 28px;
+    font-size: 25px;
+    padding-left: 15px;
+    align-items: center;
     color: #000;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
 }
 
+#redes-sociais-sobre{
+    width: 700px;
+    display: flex;
+    
+}
+
 #sobre img{
+
     width: 45px;
     height: 45px;
-    padding-top: 30px;
     padding-left: 15px;
 }
+
 
 /*Fim sobre*/
 
@@ -107,8 +120,9 @@ header a{
 
 #tecnologia{
     background: #222426;
-    height: 500px;
+    height: 600px;
     text-align: center;
+    width: 1020px;
 }
 
 #tecnologia h1{
@@ -124,24 +138,27 @@ header a{
 
 #imagem-tecologias{   
     display: flex;
-    width: 1028px;
+    width: 1020px;
     height: 304px;
     align-items: center;
     justify-content: center;
-    gap: 64px 107px;
+    gap: 75px 85px;
     flex-wrap: wrap;
-    padding-left: 10em;
+    padding-left: 1.5em;
 }
 
 
 #imagem-tecologias img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 /*Fim tecnologias*/
 
 /*Inicio Porfolio*/
+#trabalhos{
+    width: 1020px;
+}
 #trabalhos h1{
     text-align: center;
     padding-top: 15px;
@@ -156,7 +173,7 @@ header a{
 
 
 .repositorios{
-    width:252px;
+    width:256px;
     height: 252px;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -168,10 +185,16 @@ header a{
     width: 222px;
     padding-left: 15px;
     padding-top: 10px;
-
 }
 .titulo-icone img,p{
-    display: inline-block;
+   display: inline-block;
+   justify-content: flex-start;
+    color: #000;
+    
+}
+
+.titulo-icone p{
+    width: 110px;
 }
 
 .titulo-icone{
@@ -186,12 +209,12 @@ header a{
 
 #list-repositorios{
     display: flex;
-width: 1159px;
-justify-content: center;
-align-items: center;
-align-content: center;
-gap: 70px 210px;
-flex-wrap: wrap;
+    width: 1020px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 70px 210px;
+    flex-wrap:wrap-reverse;
 }
 /*Fim do porfolio*/
 
@@ -199,31 +222,36 @@ flex-wrap: wrap;
 /*Inicio Footer*/
 
 footer{
+    width: 1020px;
     margin-top: 50px;
     background: #222426;
+    display: flex;
+    justify-content: center;
 
 }
 
-footer div{
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
 
 #contato{
-    padding-left: 3em;
-    text-align: center;
-    padding-right: 15em;
+
+    width: 280px;
+    padding-left: 4em;
+    padding-bottom: 4em;
+    padding-right: 4em;
+    text-align: center;  
 }
 
+
+
 #contato h2{
+    width: 200px;
+    padding-bottom: 55px;
+    padding-top: 55px;
     color: #FEF4F4;
     font-family: Roboto;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;  
-    padding-bottom: 70px;
 }
 
 #contato a{
@@ -234,6 +262,30 @@ footer div{
     font-weight: 300;
     line-height: normal;
 }
+#redes-sociais{
+    margin-left: 20px;
+
+}
+
+#redes-sociais h2{
+    padding-top: 55px;
+    width: 600px;
+    color: #FEF4F4;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+#redes-sociais a img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+   
+}
 
 #contato a:link{
     color: #FEF4F4;
@@ -242,22 +294,5 @@ footer div{
 a:visited{
     color: #FEF4F4;
     text-decoration: none;
-}
-
-#redes-sociais h2{
-    color: #FEF4F4;
-    font-family: Roboto;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;  
-   padding-bottom: 40px;
-   text-align: center;
-}
-
-#redes-sociais a img{
-    width: 50px;
-    height: 50px;
-    padding-right: 20px;
 }
 /*Fim footer*/
