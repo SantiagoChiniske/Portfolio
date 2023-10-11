@@ -162,27 +162,32 @@ li{
 #tecnologia{
     background: #222426;
     height: 600px;
-    justify-content: center;
-  
+    text-align: center;
+    padding-top: 20px;
 }
 
 #tecnologia h1{
+    height: 100px;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     font-weight: 500;
-    background-color: red;
+    
     margin-bottom: 3.438rem;
 }
 
 #imagem-tecologias{  
-    column-count: 8;
-    background-color: green;
+    width: 700px;
+    height: 300px;
+    align-items: center;
+    margin:0 auto;
 
 }
 
 
 #imagem-tecologias img{
+    margin-right: 50px ;
+    margin-top: 50px;
     width: 70px;
     height: 70px;
 }
