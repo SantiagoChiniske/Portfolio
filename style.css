@@ -194,20 +194,16 @@ li{
 
 /*Fim tecnologias*/
 
+
 /*Inicio Porfolio*/
-#trabalhos{
-    width: 1020px;
-}
 #trabalhos h1{
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
     color: #000;
-    font-family: Inter;
+    font-family: 'Roboto', sans-serif;
     font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 600;
 }
 
 
@@ -222,8 +218,9 @@ li{
 
 #img-portfolio{
     width: 222px;
-    padding-left: 15px;
-    padding-top: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 .titulo-icone img,p{
    display: inline-block;
@@ -234,6 +231,8 @@ li{
 
 .titulo-icone p{
     width: 110px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .titulo-icone{
@@ -243,12 +242,14 @@ li{
 #textos-portfolio{
     padding-left: 15px;
     padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 
 #list-repositorios{
     display: flex;
-    width: 1020px;
+    width: auto;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -261,7 +262,6 @@ li{
 /*Inicio Footer*/
 
 footer{
-    width: 1020px;
     margin-top: 50px;
     background: #222426;
     display: flex;
