@@ -7,20 +7,25 @@
     <title>Portfolio Santiago</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./img/personagem.jpg" type="image/png">
-
+    
     
 </head>
 <body>
 
-    <header>
-        <a href="#sobre">Sobre |</a>  
-        <a href="#tecnologia">Tecnologia |</a>  
-        <a href="#trabalhos">Trabalhos |</a>  
-        <a href="#projeto"> Projeto |</a>  
-        <a href="redessociais">Redes Sociais</a>
-    </header>
+    <!-- Início da navegação-->
+    <nav class="container-grid" id="nav-bar">
+        <ul>
+            <li><a href="#sobre">Sobre </a>|</li>
+            <li><a href="#tecnologia">Tecnologia</a>|</li>
+            <li> <a href="#trabalhos">Trabalhos</a>|</li>
+            <li><a href="#projeto"> Projeto</a>|</li>
+            <li><a href="redessociais">Redes Sociais</a></li>
+        </ul>
+            
+    </nav>
 
-    <div id="inicio">
+    <!-- Início home-->
+    <section id="inicio" class="container-grid">
 
         <div>
             <img src="./img/personagem.jpg" alt="personagem" id="personagem">
@@ -28,18 +33,18 @@
 
 
         <div id="texto-personagem">
-            <p>Olá, sou Santiago !</p> <br>
-            <p>Desenvolvendo</p>
+            <h2>Olá, sou Santiago !</h2> <br>
+            <h2 class="digitando">Desenvolvendor</h2>
         </div>
 
-    </div>
+    </section>
 
 
-    <div id="informacoes">
-        <h1>Sobre</h1>
+    <section id="informacoes">
+            <h1>Sobre</h1>
 
 
-            <div id="container">
+            <div class="container">
                 <div id="perfil">
                     <img src="./img/perfil.jpg" alt="">
                 </div>
@@ -49,29 +54,27 @@
                         <p>
                             Comecei minha carreira como auxiliar de Informática e desde então tenho 
                             feito vários cursos para me aprimorar ainda mais e estar se desenvolvendo 
-                            cada dia mais nas tecnologias.
+                            cada dia mais nas tecnologias. <br> <br>
                             Estou na busca de ser um criador de conteúdo sobre tecnologia e poder ter essa  
                             possibilidade de criar vários sistemas e o Software que iram auxiliar no mundo 
                             me deixa totalmente fascinado pela tecnologia
                         </p>
         
                     </div>
-                    <div id="redes-sociais-sobre">
+                    <div id="redes-sociais-sobre" class="container">
                         <a href=" https://www.linkedin.com/in/santiago-chiniske-pereira-1402b5212/"><img src="./img/linkedin.jpg" alt="linkedin"></a>
                         <a href="https://github.com/SantiagoChiniske"><img src="./img/github.jpg" alt="github"></a>
                         <a href="https://www.instagram.com/santiago_chiniske/"><img src="./img/Instagram-preto.jpg" alt="Instagram"></a>
                         <a href="https://www.youtube.com/channel/UCGF7nhTzojKMP1WhxszqvCg"><img src="./img/Youtube.jpg" alt="Youtube"></a>
-                        <a href="https://www.tiktok.com/@santiago_chiniske"><img src="./img/Tiktok.jpg" alt="Tiktok"></a>
-                        
+                        <a href="https://www.tiktok.com/@santiago_chiniske"><img src="./img/Tiktok.jpg" alt="Tiktok"></a>                    
                     </div>
                 </div>
 
             </div>
-            
-        
-    </div>
+</section>
 
-    <div id="tecnologia">
+
+    <section id="tecnologia" >
         <h1>Tecnologias</h1>
 
         <div id="imagem-tecologias">
@@ -87,7 +90,8 @@
             <img src="./img/React.jpg" alt="React">
         </div>
 
-    </div>
+    </section>
+
 
     <div id="trabalhos">
         <h1>Trabalhos</h1>
@@ -258,7 +262,7 @@
 
     </footer>
     
-
+    <script src="index.js"></script>
 
 </body>
 </html>
