@@ -495,7 +495,7 @@ a:visited{
     }
 
     #texto-personagem h2{
-        font-size: 10px;    
+        font-size: 16px;    
     }
     #perfil{
         width: 105px;
@@ -521,6 +521,9 @@ a:visited{
         width: 10px;
         height: 10px;
     }
+    #tecnologia{
+        height: 700px;
+    }
 
     #imagem-tecologias{  
         width: 200px;
@@ -528,8 +531,8 @@ a:visited{
     }
 
     #imagem-tecologias img{
-        width: 25px;
-        height: 25px;
+        width: 38px;
+        height: 38px;
     }
     #redes-sociais-sobre img{
         margin-right:0.813rem;
