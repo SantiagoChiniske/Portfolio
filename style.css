@@ -13,11 +13,12 @@
 /*Header*/
 nav{
     background-color: #000; 
-    grid-column-start: 6;
-    grid-column-end: 12;
+    grid-column-start: 0;
+    grid-column-end: 1;
     justify-content: center;
     align-items: center;
     height: 3.125rem;
+    width: 100%;
 }
 
 #nav-bar a{
@@ -52,14 +53,14 @@ li{
 #personagem{
     grid-column-start: 1;
     grid-column-end: 3;
-    padding-left: 5.313rem;
+    padding-left: 4.313rem;
     width: 215px;
     height: 215px;
 }
 
 #texto-personagem{
     grid-column-start: 4;
-    grid-column-end: 12;
+    grid-column-end: 10;
     padding-left: 2em;
     align-items: center;
     color: #FFFFFF;
@@ -131,6 +132,7 @@ li{
     padding-left:40px ;
 }
 
+
 #sobre img{
     width: 45px;
     height: 45px;
@@ -172,7 +174,6 @@ li{
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     font-weight: 500;
-    
     margin-bottom: 3.438rem;
 }
 
@@ -266,7 +267,6 @@ footer{
     background: #222426;
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -336,3 +336,143 @@ a:visited{
 }
 /*Fim footer*/
 
+/*Parte da responsividade*/
+
+@media(max-width: 917px) and (min-width:600px){
+
+
+
+    #personagem{
+        padding-left: 2.313rem;
+        width: 175px;
+        height: 175px;
+    }
+    #texto-personagem{
+        padding-left: 0.5em;
+    }
+
+    #texto-personagem h2{
+        font-size: 45px;
+        
+    }
+    #sobre{
+    padding-left:30px ;
+    }
+
+    #sobre p{
+        width: 350px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    #sobre img{
+        width: 35px;
+        height: 35px;
+    }
+
+    #imagem-tecologias{  
+        width: 600px;
+        height: 200px;
+    }
+    #imagem-tecologias img{
+        width: 60px;
+        height: 60px;
+    }
+    #trabalhos h1{
+        font-size: 35px;
+    }
+
+    .repositorios{
+        width:216px;
+        height: 212px;
+    }
+
+    #img-portfolio{
+        width: 182px;
+    }
+
+    #contato{
+        padding-left: 2em;
+        width: 200px;
+    }
+    #redes-sociais h2{
+        width: 350px;
+        font-size: 26px;
+    }
+    #redes-sociais a img{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+       
+    }
+    
+}
+
+@media(max-width: 662px) and (min-width:300px){
+    #personagem{
+        padding-left: 2.313rem;
+        width: 125px;
+        height: 125px;
+    }
+    #texto-personagem{
+        padding-left: 0.5em;
+    }
+
+    #texto-personagem h2{
+        font-size: 25px;
+        
+    }
+
+    #perfil img{
+        width: 115px;
+        height: 115px;
+    }
+    #sobre{
+    padding-left:20px ;
+    }
+
+    #sobre p{
+        width: 300px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+    }
+
+    #sobre img{
+        width: 25px;
+        height: 25px;
+    }
+
+    #imagem-tecologias{  
+        width: 300px;
+        height: 200px;
+    }
+    #imagem-tecologias img{
+        width: 45px;
+        height: 45px;
+    }
+    #trabalhos h1{
+        font-size: 25px;
+    }
+
+    #contato h2{
+        font-size: 26px; 
+    }
+
+    #contato{
+        padding-left: 2em;
+        width: 200px;
+    }
+    #contato a{
+        font-size: 20px;
+    }
+    #redes-sociais h2{
+        width: 200px;
+        font-size: 20px;
+    }
+    #redes-sociais a img{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+       
+    }
+}
