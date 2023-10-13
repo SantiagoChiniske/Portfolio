@@ -230,6 +230,14 @@ li{
     
 }
 
+.titulo-icone p:hover{
+    color: #494949;
+}
+
+.titulo-icone p:visited{
+    color: #000;
+}
+
 .titulo-icone p{
     width: 110px;
     font-family: 'Roboto', sans-serif;
@@ -336,7 +344,7 @@ a:visited{
 }
 /*Fim footer*/
 
-/*Parte da responsividade*/
+/*Inicio da responsividade*/
 
 @media(max-width: 917px) and (min-width:600px){
 
