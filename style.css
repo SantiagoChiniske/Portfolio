@@ -230,12 +230,13 @@ li{
     
 }
 
-.titulo-icone p:hover{
+.titulo-icone p a:hover{
     color: #494949;
 }
 
-.titulo-icone p:visited{
+.titulo-icone p a:visited{
     color: #000;
+    text-decoration: none;
 }
 
 .titulo-icone p{
