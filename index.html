@@ -5,261 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Portfolio Santiago</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./img/personagem.jpg" type="image/png">
-    
-    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/personagem.svg" type="image/png">
 </head>
 <body>
 
     <!-- Início da navegação-->
-    <nav class="container-grid" id="nav-bar">
+    <nav id="nav-bar">
+        <h1>Santiago Chiniske Pereira</h1>
         <ul>
-            <li><a href="#informacoes">Sobre </a>|</li>
-            <li><a href="#tecnologia">Tecnologia</a>|</li>
-            <li><a href="#trabalhos"> Projeto</a>|</li>
-            <li><a href="#redes-sociais">Redes Sociais</a></li>
-        </ul>
-            
+            <li><a href="#informacoes">Sobre </a></li>
+            <li><a href="#trabalho">Trabalho</a></li>
+            <li><a href="#contato"> Contato</a></li>
+        </ul>    
     </nav>
-
+    <!-- Fim da navegação-->
     <!-- Início home-->
-    <section id="inicio" class="container-grid">
-
-        <div>
-            <img src="./img/personagem.jpg" alt="personagem" id="personagem">
+    <section class="inicio">
+        <div class="foto">
+            <img src="./img/Foto.jpg" alt="personagem" id="personagem">
         </div>
+        <div class="texto-personagem">
+            <h2 class="text-one">Olá, sou Santiago !</h2> 
+            <h2 class="digitando">Desenvolvedor Full Stack </h2>
+        </div>
+    </section>
+    <section class="tecnologia" >
 
-
-        <div id="texto-personagem">
-            <h2>Olá, sou Santiago !</h2> <br>
-            <h2 class="digitando">Desenvolvendor</h2>
+        <div id="img-tecologias" >
+            <img src="./img/html.svg" alt="">
+            <img src="./img/css.svg" alt="">
+            <img src="./img/JS.svg" alt="">
+            <img src="./img/sass.svg" alt="">
+            <img src="./img/react.svg" alt="">
+            <img src="./img/typescript.svg" alt="">
+            <img src="./img/node.svg" alt="">
+            <img src="./img/figma.svg" alt="">
         </div>
 
     </section>
-
-
-    <section id="informacoes">
-            <h1>Sobre</h1>
-
-
-            <div class="container">
-                <div id="perfil">
-                    <img src="./img/perfil.jpg" alt="">
-                </div>
-        
-                <div id="sobre">
-                    <div>
-                        <p>
-                            Comecei minha carreira como auxiliar de Informática e desde então tenho 
-                            feito vários cursos para me aprimorar ainda mais e estar se desenvolvendo 
-                            cada dia mais nas tecnologias. <br> <br>
-                            Estou na busca de ser um criador de conteúdo sobre tecnologia e poder ter essa  
-                            possibilidade de criar vários sistemas e o Software que iram auxiliar no mundo 
-                            me deixa totalmente fascinado pela tecnologia
-                        </p>
-        
+<!-- Fim home-->
+<!--Inicio sobre-->
+        <div class="informacoes" >
+            <section class="informacoes-text">               
+                <div class="conteudo">                   
+                    <div class="sobre">
+                        <h1>Sobre</h1>
+                        <p>Tenho 20 anos, tenho contato com a tecnologia à 3 anos e a um ano aprofundando ainda mais no mercado do desenvolvimento de Software. Sou totalmente fascinado no mundo da tecnologia e amo procurar aprender como as coisas funcionam.
+                        <br>
+                        <br>Tenho aprofundado no mundo desenvolvimento web, aprendendo as tecnologias necessárias e também framework para o desenvolvimento.</p>
                     </div>
-                    <div id="redes-sociais-sobre" class="container">
-                        <a href=" https://www.linkedin.com/in/santiago-chiniske-pereira-1402b5212/"><img src="./img/linkedin.jpg" alt="linkedin"></a>
-                        <a href="https://github.com/SantiagoChiniske"><img src="./img/github.jpg" alt="github"></a>
-                        <a href="https://www.instagram.com/santiago_chiniske/"><img src="./img/Instagram-preto.jpg" alt="Instagram"></a>
-                        <a href="https://www.youtube.com/channel/UCGF7nhTzojKMP1WhxszqvCg"><img src="./img/Youtube.jpg" alt="Youtube"></a>
-                        <a href="https://www.tiktok.com/@santiago_chiniske"><img src="./img/Tiktok.jpg" alt="Tiktok"></a>                    
+                    <div id="img-personagem">
+                        <img src="./img/personagem.svg" alt="">
                     </div>
                 </div>
-
-            </div>
-    </section>
-
-
-    <section id="tecnologia" >
-        <h1>Tecnologias</h1>
-
-        <div id="imagem-tecologias">
-            <img src="./img/HTML.jpg" alt="html">
-            <img src="./img/CSS.jpg" alt="css">
-            <img src="./img/JS.jpg" alt="javascript">
-            <img src="./img/Python.jpg" alt="Python">
-            <img src="./img/Node.js.jpg" alt="Node">
-            <img src="./img/Typescript.jpg" alt="Typescript">
-            <img src="./img/Office 360.jpg" alt="Office">
-            <img src="./img/Figma.jpg" alt="Figma">
-            <img src="./img/VS Code.jpg" alt="vs Code">
-            <img src="./img/React.jpg" alt="React">
+            </section>
         </div>
-
-    </section>
-
-
-    <div id="trabalhos">
-        <h1>Projetos</h1>
-
-       
-        <div id="list-repositorios">
-
-            <div class="repositorios">
-                <img src="./img/img-portfolio.jpg" alt="" id="img-portfolio">
-                
-                <div id="textos-portfolio">
-                    <h4>Título</h4>
-                <div class="titulo-icone" >
-                    <a href="">
-                        <img src="/img/icon-visitar.png" alt="" style="width: 15px;height: 15px;">
-                        <p>Visitar</p>  
-                    </a>
-                               
+<!--Fim sobre-->
+<!--Inicio Projetos -->  
+        <div class="informacoes">
+            <section class="projetos">
+                <h1><span>Proje</span>tos</h1>
+        
+                <div class="conteudo-projetos">
+                    <div class="img-projeto">
+                        <h3>Nome dos projetos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum reprehenderit vero mollitia corrupti cupiditate quod officia eum accusamus aliquid autem repudiandae delectus, voluptas unde. Sequi minima quasi vitae magni?</p>
+                        <img src="./img/html.svg" alt="">
+                        <img src="./img/css.svg" alt="">
+                    </div>
+                    <div class="fundo-projetos">
+                        <img src="./img/fundoprojeto.svg" alt="">  
+                    </div>       
                 </div>
 
-                <div class="titulo-icone">
-                    <a href="">
-                        <img src="./img/icon-repositorio.png" alt="" style="width: 15px;height: 15px;" >
-                        <p>Repositório</p>
-                    </a>    
-                </div>
-                </div>
-               
-            </div>
-
-            <div class="repositorios">
-                <img src="./img/img-portfolio.jpg" alt="" id="img-portfolio">
-                
-                <div id="textos-portfolio">
-                    <h4>Título</h4>
-                <div class="titulo-icone" >
-                    <a href="">
-                        <img src="/img/icon-visitar.png" alt="" style="width: 15px;height: 15px;">
-                        <p>Visitar</p>  
-                    </a>
-                               
+                <div class="conteudo-projetos conteudo-espaco">
+                    <div class="img-projeto">
+                        <h3>Nome dos projetos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum reprehenderit vero mollitia corrupti cupiditate quod officia eum accusamus aliquid autem repudiandae delectus, voluptas unde. Sequi minima quasi vitae magni?</p>
+                        <img src="./img/html.svg" alt="">
+                        <img src="./img/css.svg" alt="">
+                    </div>
+                    <div class="fundo-projetos">
+                        <img src="./img/fundoprojeto.svg" alt="">  
+                    </div>       
                 </div>
 
-                <div class="titulo-icone">
-                    <a href="">
-                        <img src="./img/icon-repositorio.png" alt="" style="width: 15px;height: 15px;" >
-                        <p>Repositório</p>
-                    </a>    
-                </div>
-                </div>
-               
-            </div>
-
-            <div class="repositorios">
-                <img src="./img/img-portfolio.jpg" alt="" id="img-portfolio">
-                
-                <div id="textos-portfolio">
-                    <h4>Título</h4>
-                <div class="titulo-icone" >
-                    <a href="">
-                        <img src="./img/icon-visitar.png" alt="" style="width: 15px;height: 15px;">
-                        <p>Visitar</p>  
-                    </a>
-                               
+                <div class="conteudo-projetos conteudo-espaco">
+                    <div class="img-projeto">
+                        <h3>Nome dos projetos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum reprehenderit vero mollitia corrupti cupiditate quod officia eum accusamus aliquid autem repudiandae delectus, voluptas unde. Sequi minima quasi vitae magni?</p>
+                        <img src="./img/html.svg" alt="">
+                        <img src="./img/css.svg" alt="">
+                    </div>
+                    <div class="fundo-projetos">
+                        <img src="./img/fundoprojeto.svg" alt="">  
+                    </div>       
                 </div>
 
-                <div class="titulo-icone">
-                    <a href="">
-                        <img src="./img/icon-repositorio.png" alt="" style="width: 15px;height: 15px;" >
-                        <p>Repositório</p>
-                    </a>    
-                </div>
-                </div>
-               
-            </div>
-
-            <div class="repositorios">
-                <img src="./img/projeto-cofrinho.png" alt="" id="img-portfolio" style="border: 1px solid black;">
-                
-                <div id="textos-portfolio">
-                    <h4>Cofrinho</h4>
-                <div class="titulo-icone" >
-                    <a href="">
-                        <img src="./img/icon-visitar.png" alt="" style="width: 15px;height: 15px;">
-                        <p><a href="https://github.com/SantiagoChiniske/Cofrinho">Visitar</a></p>  
-                    </a>
-                               
-                </div>
-
-                <div class="titulo-icone">
-                    <a href="">
-                        <img src="./img/icon-repositorio.png" alt="" style="width: 15px;height: 15px;" >
-                        <p><a href="https://github.com/SantiagoChiniske/Cofrinho">Repositório</a></p>
-                    </a>    
-                </div>
-                </div>
-               
-            </div>
-
-            <div class="repositorios">
-                <img src="./img/img-portfolio.jpg" alt="" id="img-portfolio">
-                
-                <div id="textos-portfolio">
-                    <h4>Título</h4>
-                <div class="titulo-icone" >
-                    <a href="">
-                        <img src="./img/icon-visitar.png" alt="" style="width: 15px;height: 15px;">
-                        <p>Visitar</p>  
-                    </a>
-                               
-                </div>
-
-                <div class="titulo-icone">
-                    <a href="">
-                        <img src="./img/icon-repositorio.png" alt="" style="width: 15px;height: 15px;" >
-                        <p>Repositório</p>
-                    </a>    
-                </div>
-                </div>
-               
-            </div>
-
-            <div class="repositorios">
-                <img src="./img/img-portfolio.jpg" alt="" id="img-portfolio">
-                
-                <div id="textos-portfolio">
-                    <h4>Título</h4>
-                <div class="titulo-icone" >
-                    <a href="">
-                        <img src="./img/icon-visitar.png" alt="" style="width: 15px;height: 15px;">
-                        <p>Visitar</p>  
-                    </a>
-                               
-                </div>
-
-                <div class="titulo-icone">
-                    <a href="">
-                        <img src="/img/icon-repositorio.png" alt="" style="width: 15px;height: 15px;" >
-                        <p>Repositório</p>
-                    </a>    
-                </div>
-                </div>
-               
-            </div>
-
-
+            </section>
         </div>
+<!--Fim dos Projetos --> 
+
+<!--Footer-->
+    <div class="informacoes">
+        <footer >
+            <h2>Contato</h2>
+            <div id="contato">
+                <h3>E-mail:
+                </h3>
+                <a href="mailto:santiagocpereira@gmail.com">santiagocpereira@gmail.com</a>
+            </div>
+    
+            <div id="redes-sociais">
+                <h3>Redes Sociais</h3>
+                <a href="https://www.linkedin.com/in/santiago-chiniske-pereira-1402b5212/"> <img src="./img/linkedin.svg" alt=""></a>
+                <a href="https://github.com/SantiagoChiniske" ><img src="./img/github.svg" alt="github"></a>
+                <a href="https://www.instagram.com/santiago_chiniske/"><img src="./img/Instagram.svg" alt="Instagram"></a>
+                </a>        
+            </div>
+      </footer>
+        
     </div>
 
-
-    <footer>
-        <div id="contato">
-            <h2>Contato</h2>
-            <a href="mailto:santiagocpereira@gmail.com<">santiagocpereira@gmail.com</a>
-        </div>
-
-        <div id="redes-sociais">
-            <h2>Redes Sociais</h2>
-            <a href="https://www.linkedin.com/in/santiago-chiniske-pereira-1402b5212/"> <img src="./img/linkedin.jpg" alt=""></a>
-            <a href="https://github.com/SantiagoChiniske" ><img src="./img/github-fundobranco.png" alt="github"></a>
-            <a href="https://www.instagram.com/santiago_chiniske/"><img src="./img/Instagram.jpg" alt="Instagram"></a>
-            <a href="https://www.youtube.com/channel/UCGF7nhTzojKMP1WhxszqvCg"><img src="./img/Youtube.jpg" alt=""></a>
-            <a href="https://www.tiktok.com/@santiago_chiniske"> <img src="./img/Tiktok.jpg" alt="">
-            </a>
-            
-        </div>
-
-
-    </footer>
+    <div class="desenvolvido informacoes">
+        <h2> Desenvolvido por Santiago Chiniske</h2>
+        <img src="./img/logo.svg" alt="">
+    </div>
+    
     
     <script src="index.js"></script>
 
