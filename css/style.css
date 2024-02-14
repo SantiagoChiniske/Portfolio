@@ -183,11 +183,36 @@
   display: inline-block;
 }
 .projetos .conteudo-projetos .fundo-projetos img {
+  border-radius: 10px;
   margin-top: 20px;
   width: 300px;
 }
 .projetos .conteudo-espaco {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+.projetos .acessos {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+.projetos .acessos span {
+  border: 1px solid #EDEEEE;
+  border-radius: 5px;
+  padding: 5px 15px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projetos .acessos a {
+  color: #EDEEEE;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.projetos .acessos img, .projetos .acessos a:hover {
+  color: red;
+  transition: 500ms;
 }
 
 footer {
@@ -378,6 +403,7 @@ footer div a {
   }
   .projetos .conteudo-projetos .fundo-projetos {
     display: inline-block;
+    border-radius: 20px;
   }
   .projetos .conteudo-projetos .fundo-projetos img {
     margin-top: 25px;

@@ -179,14 +179,39 @@
         .fundo-projetos{
             display: inline-block; 
           img{
+            border-radius: 10px;
             margin-top: 20px;
             width: 300px;
           }
         }
     }
     .conteudo-espaco{
-        margin-top: 100px;
+        margin-top: 50px;
     }
+
+    .acessos{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 125px;
+        display: flex;
+        justify-content: space-between;
+        span{
+            border: 1px solid $secondary-color;
+            border-radius: 5px;
+            padding: 5px 15px 5px 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            @include formatacaoLetra($secondary-color,Roboto,15px );   
+        }
+        img,a:hover{
+            color: red;
+            transition: 500ms;
+        }
+    }
+    
 }
 
 
@@ -369,6 +394,7 @@ footer{
             width: 350px;
             .fundo-projetos{
                 display: inline-block; 
+                border-radius: 20px;
               img{
                 margin-top: 25px;
                 width: 300px;
