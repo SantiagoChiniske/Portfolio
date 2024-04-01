@@ -5,7 +5,7 @@ function escrevendoLetra(){
         arrTexto.forEach((letra,i)=> {
             setTimeout(()=>{
                 elemento.innerHTML += letra;
-            }, 75 * i);
+            }, 85 * i);
         });
     }
     

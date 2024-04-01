@@ -8,7 +8,8 @@
 #nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 25px 35px;
+  padding: 25px 55px;
+  margin: 0 85px;
 }
 #nav-bar h1 {
   color: #EDEEEE;
@@ -202,13 +203,14 @@
   border-radius: 5px;
   padding: 5px 15px 5px 5px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .projetos .acessos a {
   color: #EDEEEE;
   font-family: Roboto;
   font-size: 15px;
+  text-decoration: none;
 }
 .projetos .acessos img, .projetos .acessos a:hover {
   color: red;
@@ -268,10 +270,14 @@ footer div a {
 }
 
 @media (max-width: 450px) {
+  #nav-bar {
+    padding: 25px 0px;
+    margin: 0 20px;
+  }
   #nav-bar h1 {
     color: #EDEEEE;
     font-family: Roboto;
-    font-size: 10px;
+    font-size: 13px;
   }
   #nav-bar a {
     color: #EDEEEE;
@@ -293,6 +299,7 @@ footer div a {
     font-size: 15px;
   }
   .inicio .texto-personagem, .inicio #fotos {
+    padding-left: 25px;
     width: 380px;
   }
   .inicio .digitando {

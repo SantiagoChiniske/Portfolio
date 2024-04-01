@@ -11,7 +11,8 @@
 #nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 25px 35px ;
+    padding: 25px 55px ;
+    margin: 0 85px;
 
     h1{
         @include formatacaoLetra($secondary-color,Roboto,20px );
@@ -196,15 +197,17 @@
         display: flex;
         justify-content: space-between;
         span{
+          
             border: 1px solid $secondary-color;
             border-radius: 5px;
             padding: 5px 15px 5px 5px;
             display: flex;
-            justify-content: center;
+            justify-content: start;
             align-items: center;
         }
         a{
             @include formatacaoLetra($secondary-color,Roboto,15px );   
+            text-decoration: none;
         }
         img,a:hover{
             color: red;
@@ -268,8 +271,11 @@ footer{
 @media (max-width: 450px) {
 
     #nav-bar{
+        padding: 25px 0px ;
+        margin: 0 20px;
       h1{
-        @include formatacaoLetra($secondary-color,Roboto,10px );
+        
+        @include formatacaoLetra($secondary-color,Roboto,13px );
   
     }
     a{
@@ -289,6 +295,7 @@ footer{
         @include formatacaoLetra($secondary-color,Roboto,15px );
     }
     .texto-personagem,#fotos{
+        padding-left: 25px;
         width: 380px;
     }
     .digitando{
