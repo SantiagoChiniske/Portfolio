@@ -1,0 +1,26 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+}
+
+.about__img{
+    width: 20em;
+    margin-right: 10em;
+}
+
+.about__section{
+    width: 21em;
+}
+.text-size{
+    font-size: 15px;
+}
+
+.about__section p{
+    margin-top: 2em;
+    text-align: justify;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-style: normal;
+}

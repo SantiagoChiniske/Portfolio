@@ -13,7 +13,7 @@ function Start (){
         <section className="start">
             <div className="start__section">
                 <Textlight nome="Santiago Chiniske Pereira"/>
-                <TextBold nome="DESENVOLVEDOR FRONT-END" alternativo =" ."/> 
+                <TextBold nome="DESENVOLVEDOR FRONT-END"  estilo="text__bold text__size-high" alternativo =" ."/> 
 
 
                 <div className="start__link">

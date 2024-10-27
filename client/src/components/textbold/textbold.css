@@ -1,11 +1,16 @@
 .text__bold{
-    font-size: 3em;
     font-weight: 700;
     font-style: normal;
     color: var(--color-primary);
-    
 }
 
+.text__size-low{
+    font-size: 1.5em;
+}
+
+.text__size-high{
+    font-size: 3em;
+}
 .color__ponto{
     color:#3E608C;
     font-size: 1.1em;
