@@ -1,0 +1,22 @@
+.main__tecnologias{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main__tecnologias-titulo{
+    font-size: 3em;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 1.5em;
+}
+
+
+.section__tecnologias{
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-bottom: 3em;
+    align-items: center;
+}
