@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+
+  --bg-primary: #FFFCF8;
+  --bg-secondary: #E4E5E6;
+
+  --color-primary: #1B1D1F;
+  --color-secondary: #8C7972;
+
+  font-family: "Ubuntu", sans-serif;
+}
+
+body{
+  background-color: var(--bg-primary);
+}

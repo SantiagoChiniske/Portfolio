@@ -1,0 +1,6 @@
+.text-light{
+    font-size: 2em;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--color-primary);
+}
