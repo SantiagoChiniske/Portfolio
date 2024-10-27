@@ -1,0 +1,17 @@
+.main__projetos{
+    text-align: center;
+
+}
+
+.main__projetos-titulo{
+    font-size: 3em;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--color-primary);
+}
+.main__projetos-titulo span{
+    border-bottom: 4px solid var(--color-primary);
+}
+.main__projetos-section{
+    height: 35em;
+}
