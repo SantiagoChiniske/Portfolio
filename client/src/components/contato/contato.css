@@ -1,0 +1,92 @@
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25em;
+}
+
+/*Forms Contato*/
+
+.contato__form{
+    width: 20em;
+    height: 25em;
+    padding: 3em;
+}
+
+.contato__forms-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contato__forms-text{
+    margin-top: 3em;
+}
+.contato__forms-text,.contato__forms-email{
+    border: none;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    height: 3em;
+    width: 23em;
+    filter: drop-shadow(0px 5px 2px #4D5359);
+    outline: 0;
+}
+
+.contato__forms-textarea{
+    border: none;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    height: 20em;
+    max-height: 20em;
+    max-width: 21.3em;
+    width:  21.3em;
+    filter: drop-shadow(0px 5px 2px #4D5359);
+    outline: 0;
+    padding: 0.6em 1em;
+    font-family: "Ubuntu", sans-serif;
+}
+.contato__forms-text::placeholder,.contato__forms-email::placeholder,.contato__forms-textarea::placeholder{
+    color: #AAB2B9;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.contato__forms-button{
+    background-color: var(--color-secondary);
+    border: none;
+    font-size: 1em;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 0.3em;
+    justify-content: end;
+}
+
+
+/*Redes Sociais*/
+
+.contato__rede-sociais{
+    width: 30em;
+    height: 25em;
+    margin-left: 2em;
+}
+
+.icones{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.icones img{
+    width: 2.5em;
+    margin-right: 1em;
+}
+
+.icones a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.icones a:hover{
+    color: var(--color-secondary);
+    border-bottom: 3px solid var(--color-secondary);
+}
+

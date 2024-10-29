@@ -3,6 +3,7 @@ import Start from "./components/start/start"
 import About from "./components/about/about"
 import Tecnologias from "./components/tecnologias/tecnologias"
 import Projetos from "./components/projetos/projetos"
+import Contato from "./components/contato/contato"
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       <About/>
       <Tecnologias/>
       <Projetos/>
-
+      <Contato/>
     </>
   )
 }
