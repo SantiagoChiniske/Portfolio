@@ -1,15 +1,14 @@
 .contato{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 25em;
+    height: 40em;
 }
 
 /*Forms Contato*/
 
 .contato__form{
     width: 20em;
-    height: 25em;
+    height: 34em;
     padding: 3em;
 }
 
@@ -65,8 +64,8 @@
 
 .contato__rede-sociais{
     width: 30em;
-    height: 25em;
-    margin-left: 2em;
+    height: 34em;
+    padding-top: 3em;
 }
 
 .icones{

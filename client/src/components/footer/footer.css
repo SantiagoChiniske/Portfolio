@@ -1,0 +1,19 @@
+.footer{
+    background-color: #473930;
+    color: #EDEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__texto{
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0;
+    font-weight: 700;
+    font-style: normal;
+}
+.footer__img{
+    width: 1.5em;
+    margin-right: 1em;
+}
