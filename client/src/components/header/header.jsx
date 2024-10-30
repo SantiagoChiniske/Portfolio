@@ -1,5 +1,6 @@
 import ImgLogo from "../../assets/logo.png"
 import "./header.css"
+import {Link} from 'react-scroll'
 
 function Header (){
 
@@ -12,9 +13,9 @@ function Header (){
 
             <nav className="header__nav">
                 <ul className="header__nav-ul">
-                    <li><a href="about" className="header__nav-link">Sobre</a></li>
-                    <li><a href="#" className="header__nav-link">Trabalhos</a></li>
-                    <li><a href="#" className="header__nav-link">Contatos</a></li>
+                    <li><Link to="sobre" smooth={true} offset={200} duration={500} className="header__nav-link">Sobre</Link></li>
+                    <li><Link to="projetos" smooth={true} offset={200} duration={500} className="header__nav-link">Trabalhos</Link></li>
+                    <li><Link to="contato" smooth={true} offset={200} duration={500} className="header__nav-link">Contatos</Link></li>
                 </ul>
             </nav>
 

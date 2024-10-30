@@ -7,43 +7,40 @@ import ImgFigma from "../../assets/logo-figma.png"
 import ImgJS from "../../assets/logo-js.png"
 import ImgReact from "../../assets/logo-react.png"
 import ImgTypescript from "../../assets/logo-typescript.png"
+import ImgNext from "../../assets/logo-next.png"
+import ImgProjetoConstrucao from "../../assets/projeto-construcao.png"
+import ImgUnidos from "../../assets/projeto-unidos.png"
+
+
 
 function Projetos () {
 
     return(
-        <main className="main__projetos">
+        <main className="main__projetos" id="projetos">
             <h1 className="main__projetos-titulo"><span>Projetos </span></h1>
 
             <section className="main__projetos-section">
                 <CardProjetos
                     imagem={Projeto1}
-                    titulo="titulo"
-                    texto="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
-                    tech1={ImgJS}
-                    tech2={ImgJS}
-                    tech3={ImgJS}
-                    link1="#"
-                    link2="#"
+                    titulo="Portfolio Taina"
+                    texto="Projeto desenvolvido pela Designer Taina e dado a vida por mim."
+                    tech1={ImgReact}
+                    tech2={ImgCSS}
+                    link1="https://portfolio-git-main-rtaina-s-projects.vercel.app/"
+                    link2="https://github.com/Tainaa28/portfolio"
                     />
                     <CardProjetos
-                    imagem={Projeto1}
-                    titulo="titulo"
-                    texto="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
-                    tech1={ImgJS}
-                    tech2={ImgJS}
-                    tech3={ImgJS}
-                    link1="#"
-                    link2="#"
+                    imagem={ImgUnidos}
+                    titulo="Projeto Unidos do Brasil"
+                    texto="Projeto desenvolvido para revitalização do Site e criar uma idetidade para uma funerâria atraindo mais clientes para empressa, trazendo assim engajamento para marca."
+                    tech1={ImgNext}
+                    tech2={ImgCSS}
+                    link1="https://www.unidosdobrasil.com.br/"
                     />
                     <CardProjetos
-                    imagem={Projeto1}
-                    titulo="titulo"
-                    texto="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
-                    tech1={ImgJS}
-                    tech2={ImgJS}
-                    tech3={ImgJS}
-                    link1="#"
-                    link2="#"
+                    imagem={ImgProjetoConstrucao}
+                    titulo="Em Construção"
+                    texto="Em breve novos projetos..."
                     />
                     
             </section>

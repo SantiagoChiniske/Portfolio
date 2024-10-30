@@ -8,7 +8,7 @@ function Contato (){
 
     return(
 
-    <section className="contato">
+    <section className="contato" id="contato">
         <form className="contato__form" >
             <Textlight nome="Entre em"/>
             <TextBold nome="Contato" estilo="text__bold text__size-high"/>
