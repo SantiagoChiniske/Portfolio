@@ -1,6 +1,8 @@
 .main__projetos{
     text-align: center;
-    height: 90em;
+    height: 82em;
+    background-color: red;
+
 }
 
 .main__projetos-titulo{
@@ -14,4 +16,7 @@
 }
 .main__projetos-section{
     height: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

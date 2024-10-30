@@ -12,7 +12,7 @@ function Header (){
 
             <nav className="header__nav">
                 <ul className="header__nav-ul">
-                    <li><a href="#" className="header__nav-link">Sobre</a></li>
+                    <li><a href="about" className="header__nav-link">Sobre</a></li>
                     <li><a href="#" className="header__nav-link">Trabalhos</a></li>
                     <li><a href="#" className="header__nav-link">Contatos</a></li>
                 </ul>
