@@ -22,3 +22,7 @@
     width: 1.9em;
     margin-left: 0.5em;
 }
+
+.disable{
+    display: none;
+}

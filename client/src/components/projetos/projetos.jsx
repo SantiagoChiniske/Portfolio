@@ -28,6 +28,8 @@ function Projetos () {
                     tech2={ImgCSS}
                     link1="https://portfolio-git-main-rtaina-s-projects.vercel.app/"
                     link2="https://github.com/Tainaa28/portfolio"
+                    styleButton1="button__link"
+                    styleButton2="button__link"
                     />
                     <CardProjetos
                     imagem={ImgUnidos}
@@ -35,12 +37,17 @@ function Projetos () {
                     texto="Projeto desenvolvido para revitalização do Site e criar uma idetidade para uma funerâria atraindo mais clientes para empressa, trazendo assim engajamento para marca."
                     tech1={ImgNext}
                     tech2={ImgCSS}
-                    link1="https://www.unidosdobrasil.com.br/"
+                    link1={'#'}
+                    link2="https://www.unidosdobrasil.com.br/"
+                    styleButton1="disable"
+                    styleButton2="button__link"
                     />
                     <CardProjetos
                     imagem={ImgProjetoConstrucao}
                     titulo="Em Construção"
                     texto="Em breve novos projetos..."
+                    styleButton1="disable"
+                    styleButton2="disable"
                     />
                     
             </section>

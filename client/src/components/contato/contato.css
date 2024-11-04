@@ -18,6 +18,28 @@
     
 }
 
+.contato__info{
+    margin: 2em 0em;
+}
+.contato__info span{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    padding-right: 0.4em;
+
+}
+
+.contato__info a{
+    text-decoration: none;
+    color: var(--color-primary);
+    padding: 0.1em;
+}
+
+.contato__info a:hover{
+    color: var(--color-secondary);
+    border-bottom: 2px solid var(--color-secondary);
+}
+
 .contato__forms-text{
     margin-top: 3em;
 }

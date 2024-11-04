@@ -3,7 +3,7 @@ import Button from "../button/button"
 import ImgGithub from "../../assets/logo-github.png"
 import ImgDeploy from "../../assets/deploy.png"
 
-function CardProjetos ({imagem,titulo,texto,tech1,tech2,tech3,link1,link2}){
+function CardProjetos ({imagem,titulo,texto,tech1,tech2,tech3,link1,link2,styleButton1,styleButton2}){
     return(
         <div className="card__projetos">
             <img src={imagem} alt="" className="card__projetos-img" />  
@@ -21,11 +21,14 @@ function CardProjetos ({imagem,titulo,texto,tech1,tech2,tech3,link1,link2}){
                     link={link1}
                     nome="GITHUB"
                     imagem={ImgGithub}
+                    stylebutton={styleButton1}
                     />
                     <Button
                     link={link2}
                     nome="DEPLOY"
-                    imagem={ImgDeploy}/>
+                    imagem={ImgDeploy}
+                    stylebutton={styleButton2}
+                    />
                 </div>
             </div>
         </div>

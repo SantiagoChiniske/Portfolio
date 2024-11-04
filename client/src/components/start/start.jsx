@@ -22,12 +22,14 @@ function Start (){
                 nome="Github"
                 imagem={ImgGithub}
                 textoalternativo="Logo do Github"
+                stylebutton="button__link"
                 />
                 <Button
                 link="https://www.linkedin.com/in/santiago-chiniske-pereira-1402b5212/"
                 nome="Linkedin"
                 imagem={ImgLinkdln}
                 textoalternativo="Logo do Linkedin"
+                stylebutton="button__link"
                 />
                 </div>
 
