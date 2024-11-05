@@ -14,5 +14,23 @@
     padding: 0.3em;
     border: 1px solid rgba(154, 159, 165, 0.5);
     border-radius: 0.3em;
-    border-
+}
+
+
+@media screen and (max-width: 767px){
+    .card{
+        margin-right: 1.3em;
+    }
+    
+    .card__img{
+        width: 3em;
+        margin-bottom: 0.7em;
+    }
+    
+    .card__texto{
+        font-size: 1em;
+    }
+
+   
+    
 }

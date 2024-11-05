@@ -18,3 +18,41 @@
     flex-direction: column;
     align-items: center;
 }
+
+/*Modelo Tables*/
+@media screen and (max-width: 1023px){
+
+    .main__projetos{
+        text-align: center;
+        height: 60em;
+    }
+    
+    .main__projetos-titulo{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .main__projetos-section{
+        height: 55em;
+    }
+
+   
+}
+
+/*Modelo Dispositivo Móvel*/
+@media screen and (max-width: 767px){
+
+    .main__projetos{
+        height: 100em;
+    }
+    
+    .main__projetos-titulo{
+        font-size: 2.5em;
+    }
+    .main__projetos-section{
+        height: 90em;
+    }
+
+   
+    
+}

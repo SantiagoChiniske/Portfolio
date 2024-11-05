@@ -13,9 +13,6 @@
 .about__section{
     width: 21em;
 }
-.text-size{
-    font-size: 15px;
-}
 
 .about__section p{
     margin-top: 2em;
@@ -23,4 +20,52 @@
     font-size: 1.1em;
     font-weight: 300;
     font-style: normal;
+}
+
+/*Modelo Tables*/
+@media screen and (max-width: 1023px){
+    .about{
+        height: 35em;
+    }
+    
+    .about__img{
+        width: 18em;
+        margin-right: 3em;
+    }
+    
+    .about__section{
+        width: 25em;
+    }
+    .about__section p{
+        font-size: 1.1em;
+    }
+
+   
+}
+/*Modelo Dispositivo Móvel*/
+@media screen and (max-width: 767px){
+
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 40em;
+    }
+    
+    .about__img{
+        width: 15em;
+        margin-right: 0em;
+        margin-bottom: 2em;
+    }
+    
+    .about__section{
+        width: 20em;
+    }
+    
+    .about__section p{
+        margin-top: 1.5em;
+        font-size: 1em;
+    }
+    
 }

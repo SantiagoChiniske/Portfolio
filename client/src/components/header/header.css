@@ -24,6 +24,7 @@
 
 .header__nav-ul{
     display: flex;
+    cursor: pointer;
 }
 
 .header__nav-link{
@@ -38,4 +39,51 @@
 .header__nav-link:hover{
     color: var(--color-secondary);
     border-bottom: 3px solid var(--color-secondary);
+}
+
+/*Modelo Tables*/
+@media screen and (max-width: 1023px){
+
+    .header{
+        padding:  0 8%;
+    }
+
+    .header__logo-img{
+        width: 3em;
+        margin-right: 2em;
+    }
+
+    .header__logo-text{
+        font-size: 0.9em;
+    }
+    
+    .header__nav-link{
+        margin-right: 3em;
+        font-size: 0.9em;
+    }
+    
+}
+
+/*Modelo Dispositivo Móvel*/
+@media screen and (max-width: 767px){
+
+    .header{
+        padding:  0 0;
+        justify-content: center;
+    }
+
+    .header__logo-img{
+        width: 3em;
+        margin-right: 2em;
+    }
+
+    .header__logo-text{
+        font-size: 1em;
+    }
+
+    .header__nav{
+        display: none;
+    }
+    
+    
 }

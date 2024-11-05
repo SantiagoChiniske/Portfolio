@@ -20,3 +20,37 @@
     margin-bottom: 3em;
     align-items: center;
 }
+
+/*Modelo Tables*/
+@media screen and (max-width: 1023px){
+    
+    .main__tecnologias-titulo{
+        margin-bottom: 1em;
+    }
+    
+    
+    .section__tecnologias{
+        height: 7em;
+        margin-bottom: 1em;
+    }
+
+   
+}
+
+/*Modelo Dispositivo Móvel*/
+@media screen and (max-width: 767px){
+
+    
+    .main__tecnologias-titulo{
+        font-size: 2em;
+    }
+    
+    
+    .section__tecnologias{
+        height: 7em;
+        margin-bottom: 1em;
+    }
+
+   
+    
+}

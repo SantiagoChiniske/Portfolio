@@ -9,14 +9,6 @@
     width: 30em;
 }
 
-.start__section-h1{
-    font-size: 3em;
-    font-weight: 700;
-    font-style: normal;
-    color: var(--color-primary);
-    
-}
-
 .start__img{
     width: 20em;
 }
@@ -27,3 +19,53 @@
     margin-top: 3em;
 }
 
+
+/*Modelo Tables*/
+@media screen and (max-width: 1023px){
+    .start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35em;
+    }
+    
+    .start__section{
+        width: 25em;
+    }
+    
+    .start__img{
+        width: 18em;
+    }
+    
+    .start__link{
+        display: flex;
+        align-items: center;
+        margin-top: 2em;
+    }
+
+   
+}
+
+/*Modelo Dispositivo Móvel*/
+@media screen and (max-width: 767px){
+    .start{
+        flex-direction: column-reverse;
+        height: 39em;
+    }
+    
+    .start__section{
+        width: 19em;
+        margin-top: 1.5em;
+    }
+    
+    .start__img{
+        width: 18em;
+    }
+    
+    .start__link{
+        margin-top: 2em;
+    }
+
+   
+    
+}

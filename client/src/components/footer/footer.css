@@ -17,3 +17,28 @@
     width: 1.5em;
     margin-right: 1em;
 }
+
+/*Modelo Tables*/
+@media screen and (max-width: 1023px){
+    .footer__texto{
+        margin: 0.5em 0;
+        font-size: 0.8em;
+    }
+    .footer__img{
+        width: 1.8em;
+        margin-right: 1em;
+    }
+    
+}
+
+/*Modelo Dispositivo Móvel*/
+@media screen and (max-width: 767px){
+    .footer__texto{
+        margin: 0.5em 0;
+        font-size: 0.7em;
+    }
+    .footer__img{
+        width: 1.8em;
+        margin-right: 0.5em;
+    }   
+}
