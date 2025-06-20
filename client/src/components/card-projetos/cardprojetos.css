@@ -1,4 +1,5 @@
 .card__projetos{
+    background-color: var(--bg-card-projects);
     width: 50%;
     display: flex;
     justify-content: center;
@@ -8,13 +9,15 @@
     border-radius: 1em;
     padding: 2em;
     margin-top: 3em;
-    border: 0.3em solid rgba(154, 159, 165, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* sombra suave */
+     transition: box-shadow 0.3s ease;
 }
 
 .card__projetos-img{
-    width: 17em;
-    height: 14em;
+    width: 20em;
+    height: 15em;
     border-radius: 0.4em;
+    margin-bottom: 1em;
 }
 
 .card__section{
@@ -24,7 +27,7 @@
 }
 
 .card__section-titulo{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
     font-style: normal;
 }
@@ -36,7 +39,7 @@
 }
 
 .card__section-img img{
-    width: 3em;
+    width: 2.5em;
     margin: 1em 1em 1em 0;
 }
 .card__section-button{

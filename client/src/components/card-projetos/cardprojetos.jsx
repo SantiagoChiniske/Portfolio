@@ -1,7 +1,7 @@
 import "./cardprojetos.css"
 import Button from "../button/button"
-import ImgGithub from "../../assets/logo-github.png"
-import ImgDeploy from "../../assets/deploy.png"
+import ImgGithub from "../../assets/icon-github.svg"
+import ImgDeploy from "../../assets/icon-deploy.svg"
 
 function CardProjetos ({imagem,titulo,texto,tech1,tech2,tech3,link1,link2,styleButton1,styleButton2}){
     return(

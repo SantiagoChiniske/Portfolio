@@ -17,9 +17,11 @@
     display: flex;
     justify-content: center;
     flex-wrap:wrap;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     align-items: center;
 }
+
+
 
 /*Modelo Tables*/
 @media screen and (max-width: 1023px){

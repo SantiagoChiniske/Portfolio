@@ -1,13 +1,11 @@
 import "./projetos.css"
 import CardProjetos from "../card-projetos/cardprojetos"
 import Projeto1 from "../../assets/trabalho-taina.png"
-import ImgHTML from "../../assets/logo-html.png"
-import ImgCSS from "../../assets/logo-css.png"
-import ImgFigma from "../../assets/logo-figma.png"
-import ImgJS from "../../assets/logo-js.png"
-import ImgReact from "../../assets/logo-react.png"
-import ImgTypescript from "../../assets/logo-typescript.png"
-import ImgNext from "../../assets/logo-next.png"
+import ImgHTML from "../../assets/icon-html.svg"
+import ImgCSS from "../../assets/icon-css.svg"
+import ImgJS from "../../assets/icon-js.svg"
+import ImgReact from "../../assets/icon-react.svg"
+import ImgNext from "../../assets/icon-next.svg"
 import ImgProjetoConstrucao from "../../assets/projeto-construcao.png"
 import ImgUnidos from "../../assets/projeto-unidos.png"
 
@@ -25,7 +23,8 @@ function Projetos () {
                     titulo="Portfolio Taina"
                     texto="Projeto desenvolvido pela Designer Taina e dado a vida por mim."
                     tech1={ImgReact}
-                    tech2={ImgCSS}
+                    tech3={ImgCSS}
+                    tech2={ImgHTML}
                     link1="https://portfolio-git-main-rtaina-s-projects.vercel.app/"
                     link2="https://github.com/Tainaa28/portfolio"
                     styleButton1="button__link"

@@ -1,8 +1,8 @@
 .button__link{
     display: flex;
     align-items: center;
-    color: var(--color-primary);
-    background-color: var(--color-secondary);
+    color: var(--color-white);
+    background-color: var(--bg-secondary);
 
     font-weight: 700;
     font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 .button__link:hover{
-    background-color: var(--bg-secondary);
+    background-color: var( --bg-secondary-hover);
 }
 
 .button__link img{

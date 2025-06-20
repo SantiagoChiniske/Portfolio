@@ -3,14 +3,22 @@
 :root{
 
   --bg-primary: #FFFCF8;
-  --bg-secondary: #E4E5E6;
+  --bg-secondary: #312A28;
+  --bg-secondary-hover: #504036;
+  --bg-card-projects: #FBFBFB;
 
   --color-primary: #1B1D1F;
   --color-secondary: #8C7972;
+  --color-white: #ffffff;
 
   font-family: "Ubuntu", sans-serif;
 }
 
 body{
   background-color: var(--bg-primary);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px);
 }

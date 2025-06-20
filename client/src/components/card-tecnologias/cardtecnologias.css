@@ -3,7 +3,7 @@
 }
 
 .card__img{
-    width: 4em;
+    width: 3em;
     margin-bottom: 0.7em;
 }
 
@@ -23,7 +23,7 @@
     }
     
     .card__img{
-        width: 3em;
+        width:1.8em;
         margin-bottom: 0.7em;
     }
     

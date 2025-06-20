@@ -3,8 +3,8 @@ import TextBold from "../textbold/textbold"
 import Button from "../button/button"
 
 import ImgPerfil from "../../assets/foto-perfil.png"
-import ImgGithub from "../../assets/logo-github.png"
-import ImgLinkdln from "../../assets/logo-linkedln.png"
+import ImgGithub from "../../assets/icon-github.svg"
+import ImgLinkdln from "../../assets/icon-linkedin.svg"
 import "./start.css"
 
 
